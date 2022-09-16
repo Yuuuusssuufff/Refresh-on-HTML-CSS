@@ -30,6 +30,7 @@ body {
   border-radius: 10px;
   background: grey;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -61,21 +62,22 @@ body {
   left: 50%;
   transform: translate(-50%, -52%);
   transition: 0.5s;
-  font-size: 40px;
+  font-size: 70px;
   color: white;
+}
+
+.container .box:hover .icon .fa{
+font-size: 30px;
 }
 
 .container .box h3,
 .container .box p {
-  /* position: absolute; */
-  /* top: 120px; */
-  /* left: 40%; */
   position: absolute;
   transition: 0.5s;
   text-align: center;
   box-sizing: border-box;
-  /* margin: 5px; */
-}
+ }
+
 .container .box p {
   top: 170px;
   line-height: 20px;
