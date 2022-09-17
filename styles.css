@@ -42,3 +42,8 @@ ul li ul {
   float: left;
   display: none;
 }
+.sub_nav{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
